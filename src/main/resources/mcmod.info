@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "mxtweaks",
+  "name": "MelanX Tweaks",
+  "description": "This mod will add some items needed for Garden of Glass Expert Mode. Or just harder than normal.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["MelanX"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
