@@ -1,7 +1,6 @@
 package de.melanx.mxtweaks.client;
 
 import de.melanx.mxtweaks.blocks.ModBlocks;
-import de.melanx.mxtweaks.items.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
