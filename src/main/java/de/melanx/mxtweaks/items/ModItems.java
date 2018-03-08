@@ -5,17 +5,16 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
 
-    public static ItemBase petalBotania = new ItemBase("botania_petal");
+    public static ItemBase whitePetal = new ItemBase("mana_petal_white");
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                petalBotania
+                whitePetal
         );
     }
 
     public static void registerModels() {
-        petalBotania.registerItemModel();
-
+        whitePetal.registerItemModel();
     }
 
 }
