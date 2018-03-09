@@ -1,5 +1,6 @@
 package de.melanx.mxtweaks;
 
+import de.melanx.mxtweaks.client.OreDict;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import de.melanx.mxtweaks.blocks.ModBlocks;
@@ -53,6 +54,7 @@ public class mxtweaks {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        OreDict.init();
     }
 
     @Mod.EventHandler
