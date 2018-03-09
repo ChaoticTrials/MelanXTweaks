@@ -1,0 +1,23 @@
+# General
+itemGroup.MelanX Tweaks=MelanX Tweaks
+
+# Items
+item.mana_petal_white.name=Weißes Manablättchen
+item.mana_petal_orange.name=Oranges Manablättchen
+item.mana_petal_magenta.name=Magentafarbenes Manablättchen
+item.mana_petal_lightblue.name=Hellblaues Manablättchen
+item.mana_petal_yellow.name=Gelbes Manablättchen
+item.mana_petal_lime.name=Hellgrünes Manablättchen
+item.mana_petal_pink.name=Pinkes Manablättchen
+item.mana_petal_gray.name=Graues Manablättchen
+item.mana_petal_lightgray.name=Hellgraues Manablättchen
+item.mana_petal_cyan.name=Türkises Manablättchen
+item.mana_petal_purple.name=Violettes Manablättchen
+item.mana_petal_blue.name=Blaues Manablättchen
+item.mana_petal_brown.name=Braunes Manablättchen
+item.mana_petal_green.name=Grünes Manablättchen
+item.mana_petal_red.name=Rotes Manablättchen
+item.mana_petal_black.name=Schwarzes Manablättchen
+
+# Blocks
+tile.compressed_cobblestone.name=Komprimierter Bruchstein
