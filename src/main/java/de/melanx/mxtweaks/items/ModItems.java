@@ -1,11 +1,12 @@
 package de.melanx.mxtweaks.items;
 
+import de.melanx.mxtweaks.items.petals.white;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
 
-    public static ItemOre whitePetal = new ItemOre("mana_petal_white", "petalMana");
+    //public static ItemOre whitePetal = new ItemOre("mana_petal_white", "petalMana");
     public static ItemOre orangePetal = new ItemOre("mana_petal_orange", "petalMana");
     public static ItemOre magentaPetal = new ItemOre("mana_petal_magenta", "petalMana");
     public static ItemOre lightbluePetal = new ItemOre("mana_petal_lightblue", "petalMana");
@@ -21,6 +22,7 @@ public class ModItems {
     public static ItemOre greenPetal = new ItemOre("mana_petal_green", "petalMana");
     public static ItemOre redPetal = new ItemOre("mana_petal_red", "petalMana");
     public static ItemOre blackPetal = new ItemOre("mana_petal_black", "petalMana");
+    public static white whitePetal = new white();
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
