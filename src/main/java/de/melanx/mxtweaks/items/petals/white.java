@@ -1,7 +1,6 @@
 package de.melanx.mxtweaks.items.petals;
 
 import de.melanx.mxtweaks.mxtweaks;
-import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
