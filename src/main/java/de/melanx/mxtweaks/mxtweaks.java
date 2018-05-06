@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = mxtweaks.MODID, version = "b-0.1.1", name = "MelanX Tweaks", dependencies = "required-after:botania@[r1.10-354]")
+@Mod(modid = mxtweaks.MODID, version = "b-0.2", name = "MelanX Tweaks", dependencies = "required-after:botania@[r1.10-354]")
 
 public class mxtweaks {
 

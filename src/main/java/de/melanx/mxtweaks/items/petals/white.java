@@ -29,7 +29,7 @@ public class white extends Item implements IFlowerComponent {
     }
 
     public int getParticleColor(ItemStack stack) {
-        return EnumDyeColor.byMetadata(stack.getItemDamage()).getMetadata();
+        return 16383998;
     }
 
 }
