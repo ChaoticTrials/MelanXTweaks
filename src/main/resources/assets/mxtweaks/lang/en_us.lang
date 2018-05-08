@@ -18,6 +18,7 @@ item.mana_petal_brown.name=Brown Mana Petal
 item.mana_petal_green.name=Green Mana Petal
 item.mana_petal_red.name=Red Mana Petal
 item.mana_petal_black.name=Black Mana Petal
+item.rune_of_infinity.name=Rune of Infinity
 
 # Blocks
 tile.compressed_cobblestone.name=Compressed Cobblestone

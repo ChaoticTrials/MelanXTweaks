@@ -22,6 +22,7 @@ public class OreDict {
         ModItems.greenPetal.initOreDict();
         ModItems.redPetal.initOreDict();
         ModItems.blackPetal.initOreDict();
+        ModItems.rune314.initOreDict();
 
     }
 }

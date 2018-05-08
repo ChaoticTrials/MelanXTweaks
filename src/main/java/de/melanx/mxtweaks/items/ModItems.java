@@ -22,6 +22,7 @@ public class ModItems {
     public static green greenPetal = new green();
     public static red redPetal = new red();
     public static black blackPetal = new black();
+    public static InfinityRune rune314 = new InfinityRune();
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
@@ -40,7 +41,8 @@ public class ModItems {
                 brownPetal,
                 greenPetal,
                 redPetal,
-                blackPetal
+                blackPetal,
+                rune314
                 );
     }
 
@@ -61,6 +63,7 @@ public class ModItems {
         greenPetal.registerItemModel();
         redPetal.registerItemModel();
         blackPetal.registerItemModel();
+        rune314.registerItemModel();
     }
 
 }

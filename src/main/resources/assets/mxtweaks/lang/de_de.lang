@@ -18,6 +18,7 @@ item.mana_petal_brown.name=Braunes Manablättchen
 item.mana_petal_green.name=Grünes Manablättchen
 item.mana_petal_red.name=Rotes Manablättchen
 item.mana_petal_black.name=Schwarzes Manablättchen
+item.rune_of_infinity.name=Rune der Unendlichkeit
 
 # Blocks
 tile.compressed_cobblestone.name=Komprimierter Bruchstein
