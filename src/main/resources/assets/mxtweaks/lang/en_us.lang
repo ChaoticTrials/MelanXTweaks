@@ -22,3 +22,5 @@ item.rune_of_infinity.name=Rune of Infinity
 
 # Blocks
 tile.compressed_cobblestone.name=Compressed Cobblestone
+tile.infinity_block.name=Infinity Stone
+tile.pink_living_rock.name=Pink Livingrock

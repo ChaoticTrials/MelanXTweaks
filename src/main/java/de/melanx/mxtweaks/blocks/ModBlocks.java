@@ -7,22 +7,30 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ModBlocks {
 
     public static CompressedCobble compressedCobble = new CompressedCobble("compressed_cobblestone");
+    public static BlockInfinity infinityBlock = new BlockInfinity("infinity_block");
+    public static PinkLivingRock pinkRock = new PinkLivingRock("pink_living_rock");
 
     public static void register(IForgeRegistry<Block> registry) {
         registry.registerAll(
-                compressedCobble
+                compressedCobble,
+                infinityBlock,
+                pinkRock
         );
 
     }
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                compressedCobble.createItemBlock()
+                compressedCobble.createItemBlock(),
+                infinityBlock.createItemBlock(),
+                pinkRock.createItemBlock()
         );
 
     }
 
     public static void registerModels() {
         compressedCobble.registerItemModel(Item.getItemFromBlock(compressedCobble));
+        infinityBlock.registerItemModel(Item.getItemFromBlock(infinityBlock));
+        pinkRock.registerItemModel(Item.getItemFromBlock(pinkRock));
     }
 }

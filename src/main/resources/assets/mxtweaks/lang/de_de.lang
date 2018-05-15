@@ -22,3 +22,5 @@ item.rune_of_infinity.name=Rune der Unendlichkeit
 
 # Blocks
 tile.compressed_cobblestone.name=Komprimierter Bruchstein
+tile.infinity_block.name=Unendlichkeitsstein
+tile.pink_living_rock.name=Pinker Lebestein

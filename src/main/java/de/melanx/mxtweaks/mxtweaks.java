@@ -1,6 +1,7 @@
 package de.melanx.mxtweaks;
 
 import de.melanx.mxtweaks.client.OreDict;
+import de.melanx.mxtweaks.recipes.PureDaisyRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import de.melanx.mxtweaks.blocks.ModBlocks;
@@ -16,7 +17,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = mxtweaks.MODID, version = "b-0.3", name = "MelanX Tweaks", dependencies = "required-after:botania@[r1.10-354]")
+@Mod(modid = mxtweaks.MODID, version = "b-0.4", name = "MelanX Tweaks", dependencies = "required-after:botania@[r1.10-354]")
 
 public class mxtweaks {
 
@@ -55,6 +56,7 @@ public class mxtweaks {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         OreDict.init();
+        PureDaisyRecipes.init();
     }
 
     @Mod.EventHandler
