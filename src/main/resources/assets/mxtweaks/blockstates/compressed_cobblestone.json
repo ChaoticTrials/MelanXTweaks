@@ -1,16 +1,5 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "all": "mxtweaks:blocks/compressed_cobblestone"
-    }
-  },
   "variants": {
-    "normal": {
-      "model": "cube_all"
-    },
-    "inventory": {
-      "model": "cube_all"
-    }
+    "normal": { "model": "mxtweaks:compressed_cobblestone" }
   }
 }

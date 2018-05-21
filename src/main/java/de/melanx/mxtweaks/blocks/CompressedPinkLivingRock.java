@@ -9,18 +9,18 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nonnull;
 
-public class CompressedCobble extends BlockBase {
+public class CompressedPinkLivingRock extends BlockBase {
 
-    public CompressedCobble(String name) {
+    public CompressedPinkLivingRock(String name) {
         super(Material.ROCK, name);
-        setHardness(1.5f);
-        setResistance(10.0f);
+        setHardness(50f);
+        setResistance(6000.0f);
         this.setSoundType(SoundType.STONE);
-        this.setHarvestLevel("pickaxe", 1);
+        this.setHarvestLevel("pickaxe", 3);
     }
 
     @Override
-    public CompressedCobble setCreativeTab(CreativeTabs tab) {
+    public CompressedPinkLivingRock setCreativeTab(CreativeTabs tab) {
         super.setCreativeTab(tab);
         return this;
     }
