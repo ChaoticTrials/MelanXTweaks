@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT License"
+
+[[mods]]
+modId="mxtweaks"
+version="${file.jarVersion}"
+displayName="MelanX Tweaks"
+displayURL="www.curseforge.com/members/melanx/"
+credits=""
+authors="MelanX"
+description='''
+This mod will add some stuff needed for Garden of Glass (Questbook Edition).
+'''
+
+[[dependencies.mxtweaks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mxtweaks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4, 1.17)"
+    ordering="NONE"
+    side="BOTH"
