@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:frost_walker",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:binding_curse",
+                  "level": 1
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:soul_speed",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending",
+                  "level": 1
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:vanishing_curse",
+                  "level": 1
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ]
+    }
+  ]
+}

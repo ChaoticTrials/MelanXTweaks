@@ -1,5 +1,6 @@
 package de.melanx.mxtweaks;
 
+import de.melanx.mxtweaks.loot.ModLootFunctionManager;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.dedicated.DedicatedServer;
@@ -10,6 +11,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.server.FMLServerAboutToStartEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,13 +24,13 @@ public class MelanXTweaks {
     public static final String ITEM_RECEIVED_TAG = "itemReceived";
 
     public MelanXTweaks() {
+        ModLootFunctionManager.init();
         MinecraftForge.EVENT_BUS.addListener(this::onPlayerJoin);
         MinecraftForge.EVENT_BUS.addListener(this::clonePlayer);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    @SubscribeEvent
-    public void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
+    private void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
         PlayerEntity player = event.getPlayer();
         World world = player.getEntityWorld();
         if (!world.isRemote && !player.getPersistentData().getBoolean(ITEM_RECEIVED_TAG)) {
@@ -37,15 +39,14 @@ public class MelanXTweaks {
         }
     }
 
+    private void clonePlayer(PlayerEvent.Clone event) {
+        event.getPlayer().getPersistentData().putBoolean(ITEM_RECEIVED_TAG, event.getOriginal().getPersistentData().getBoolean(ITEM_RECEIVED_TAG));
+    }
+
     @SubscribeEvent
     public void serverAboutToStart(FMLServerAboutToStartEvent event) {
         if (event.getServer() instanceof DedicatedServer) {
             WorldTypeUtil.setupForDedicatedServer((DedicatedServer) event.getServer());
         }
-    }
-
-    @SubscribeEvent
-    public void clonePlayer(PlayerEvent.Clone event) {
-        event.getPlayer().getPersistentData().putBoolean(ITEM_RECEIVED_TAG, event.getOriginal().getPersistentData().getBoolean(ITEM_RECEIVED_TAG));
     }
 }

@@ -1,0 +1,505 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:protection",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fire_protection",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:feather_falling",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:blast_protection",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:projectile_protection",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:respiration",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:aqua_affinity",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:thorns",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:depth_strider",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:sharpness",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:smite",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:bane_of_arthropods",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:knockback",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fire_aspect",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:looting",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:sweeping",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:efficiency",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:unbreaking",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:power",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:punch",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:flame",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:infinity",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:luck_of_the_sea",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:lure",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:loyalty",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:impaling",
+                  "level": 6
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:riptide",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:channeling",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:multishot",
+                  "level": 2
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:quick_charge",
+                  "level": 4
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "mxtweaks:enchant_exact",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:piercing",
+                  "level": 5
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ]
+    }
+  ]
+}
