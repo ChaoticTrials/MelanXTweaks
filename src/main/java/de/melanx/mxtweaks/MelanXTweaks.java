@@ -28,6 +28,7 @@ public class MelanXTweaks {
         MinecraftForge.EVENT_BUS.addListener(this::onPlayerJoin);
         MinecraftForge.EVENT_BUS.addListener(this::clonePlayer);
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new EventHandler());
     }
 
     private void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
