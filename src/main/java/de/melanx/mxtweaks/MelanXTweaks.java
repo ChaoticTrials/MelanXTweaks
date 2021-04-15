@@ -5,6 +5,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,9 +38,15 @@ public class MelanXTweaks {
     private void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
         PlayerEntity player = event.getPlayer();
         World world = player.getEntityWorld();
-        if (!world.isRemote && !player.getPersistentData().getBoolean(ITEM_RECEIVED_TAG)) {
-            player.getPersistentData().putBoolean(ITEM_RECEIVED_TAG, true);
-            player.inventory.addItemStackToInventory(new ItemStack(Registry.ITEM.getOrDefault(new ResourceLocation("ftbquests", "book"))));
+        if (!world.isRemote) {
+            if (!player.getPersistentData().getBoolean(ITEM_RECEIVED_TAG)) {
+                player.getPersistentData().putBoolean(ITEM_RECEIVED_TAG, true);
+                player.inventory.addItemStackToInventory(new ItemStack(Registry.ITEM.getOrDefault(new ResourceLocation("ftbquests", "book"))));
+            }
+
+            MelanXTweaks.Config.startupMessages.get().forEach(s -> {
+                player.sendStatusMessage(new StringTextComponent(s).mergeStyle(TextFormatting.RED), false);
+            });
         }
     }
 
