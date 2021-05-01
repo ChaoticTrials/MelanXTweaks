@@ -14,7 +14,7 @@ buildscript {
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'org.spongepowered.mixin'
+//apply plugin: 'org.spongepowered.mixin'
 
 //mixin {
 //    add sourceSets.main, "mxtweaks.refmap.json"
