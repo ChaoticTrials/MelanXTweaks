@@ -1,6 +1,10 @@
 # MelanX Tweaks
-[![CurseForge](http://cf.way2muchnoise.eu/full_289799_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/melanx-tweaks)
-[![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_289799_all.svg)](https://www.curseforge.com/minecraft/mc-mods/melanx-tweaks)
+
+[![Modrinth](https://badges.moddingx.org/modrinth/versions/pLlcbpkx)](https://modrinth.com/mod/melanx-tweaks)
+[![Modrinth](https://badges.moddingx.org/modrinth/downloads/pLlcbpkx)](https://modrinth.com/mod/melanx-tweaks)
+
+[![Curseforge](https://badges.moddingx.org/curseforge/versions/289799)](https://www.curseforge.com/minecraft/mc-mods/melanx-tweaks)
+[![CurseForge](https://badges.moddingx.org/curseforge/downloads/289799)](https://www.curseforge.com/minecraft/mc-mods/melanx-tweaks)
 
 The following textures are textures by Vazkii:
 
